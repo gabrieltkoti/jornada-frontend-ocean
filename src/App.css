@@ -32,7 +32,7 @@
   gap: 8px;
 }
 
-.info > div {
+.info > text {
   background-color: white;
   border-radius: 8px;
   padding: 4px;
