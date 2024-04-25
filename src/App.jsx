@@ -4,20 +4,13 @@ function App() {
   return (
     <>
       <div className='card'> 
-        <h2> Rick Sanches </h2>
+        <h2 className='titleName'> Rick Sanches </h2>
+        <div className='info'>
+          <tag>Informação 1</tag>
+          <tag>Informação 2</tag>
+          <tag>Informação 3</tag>
+        </div>
         <img src="https://rickandmortyapi.com/api/character/avatar/1.jpeg" />
-      </div>
-      <div className='card'> 
-        <h2> Morty Smith </h2>
-        <img src="https://rickandmortyapi.com/api/character/avatar/2.jpeg" />
-      </div>
-      <div className='card'> 
-        <h2> Summer Smith </h2>
-        <img src="https://rickandmortyapi.com/api/character/avatar/3.jpeg" />
-      </div>
-      <div className='card'> 
-        <h2> Beth Smith </h2>
-        <img src="https://rickandmortyapi.com/api/character/avatar/4.jpeg" />
       </div>
     </>
   )
